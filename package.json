@@ -1,0 +1,28 @@
+{
+  "name": "exam-scanner-grading",
+  "version": "1.0.0",
+  "description": "Modern exam scanning and automatic grading system",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext .js,.jsx,.ts,.tsx"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "zustand": "^4.4.1",
+    "axios": "^1.6.0",
+    "lucide-react": "^0.263.1",
+    "clsx": "^2.0.0",
+    "html5-qrcode": "^2.3.8"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^4.4.5",
+    "tailwindcss": "^3.3.3",
+    "postcss": "^8.4.27",
+    "autoprefixer": "^10.4.14"
+  }
+}
